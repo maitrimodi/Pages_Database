@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pages.Master.cs" Inherits="Pages_Database.Pages" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pixel Pages</title>
+        <link rel="stylesheet" type="text/css" href="/Content/Site.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Pixel Pages</h1>
+        </header>
+        <div class="page_flex">
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="New_Blog.aspx">New Blog</a></li>
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="Your_Designs.aspx">All Your Designs</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <form id="form1" runat="server">
+                    <asp:ContentPlaceHolder ID="body" runat="server">
+                    </asp:ContentPlaceHolder>
+                </form>
+            </div>
+        </div>
+    <footer>
+        <div>
+             My Ultra Awesome Footer Here
+             
+        </div>
+    </footer>
+    </body>
+</html>

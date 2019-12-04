@@ -1,0 +1,48 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sidebar {
+    background-color: #6D8A96;
+}
+header h1 {
+    text-align: center;
+    background-color:#CAD2C5;
+    margin: 0;
+}
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.page_flex {
+    display:flex;
+}
+
+footer {
+    background-color: #CAD2C5;
+}
+
+.home_image {
+    height:100px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
