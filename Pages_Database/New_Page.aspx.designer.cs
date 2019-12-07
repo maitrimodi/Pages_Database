@@ -11,43 +11,61 @@ namespace Pages_Database
 {
 
 
-    public partial class Home
+    public partial class New_Page
     {
 
         /// <summary>
-        /// search_page control.
+        /// business_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox search_page;
+        protected global::System.Web.UI.WebControls.TextBox business_name;
 
         /// <summary>
-        /// sql_debugger control.
+        /// tag_line control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sql_debugger;
+        protected global::System.Web.UI.WebControls.TextBox tag_line;
 
         /// <summary>
-        /// home_listitem control.
+        /// page_title control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl home_listitem;
+        protected global::System.Web.UI.WebControls.TextBox page_title;
 
         /// <summary>
-        /// pages_home_result control.
+        /// page_subtitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl pages_home_result;
+        protected global::System.Web.UI.WebControls.TextBox page_subtitle;
+
+        /// <summary>
+        /// page_description control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox page_description;
+
+        /// <summary>
+        /// publish_page control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button publish_page;
     }
 }

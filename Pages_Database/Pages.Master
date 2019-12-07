@@ -7,23 +7,24 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pixel Pages</title>
-        <link rel="stylesheet" type="text/css" href="/Content/Site.css"/>
+        <link rel="stylesheet" type="text/css" href="/Content/Site.css" />
     </head>
     <body>
         <header>
             <h1>Pixel Pages</h1>
         </header>
+        <!--sidebar-->
         <div class="page_flex">
             <div class="sidebar">
                 <nav>
                     <ul>
-                        <li><a href="New_Blog.aspx">New Blog</a></li>
+                        <li><a href="New_Page.aspx">New Page</a></li>
                         <li><a href="Home.aspx">Home</a></li>
                         <li><a href="Your_Designs.aspx">All Your Designs</a></li>
                     </ul>
                 </nav>
             </div>
-            <div>
+            <div class="main_container">
                 <form id="form1" runat="server">
                     <asp:ContentPlaceHolder ID="body" runat="server">
                     </asp:ContentPlaceHolder>
@@ -32,9 +33,10 @@
         </div>
     <footer>
         <div>
-             My Ultra Awesome Footer Here
+             <p>&copy; Pixel pages</p>
              
         </div>
     </footer>
     </body>
 </html>
+<!--REFERENCE: CHRISTINE'S LAB OF CRUD ESSENTIALS SRC:https://github.com/christinebittle/crud_essentials.git -->

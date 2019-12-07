@@ -11,43 +11,34 @@ namespace Pages_Database
 {
 
 
-    public partial class Home
+    public partial class Your_Designs
     {
 
         /// <summary>
-        /// search_page control.
+        /// page_search control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox search_page;
+        protected global::System.Web.UI.WebControls.TextBox page_search;
 
         /// <summary>
-        /// sql_debugger control.
+        /// sql_debugger_design control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sql_debugger;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sql_debugger_design;
 
         /// <summary>
-        /// home_listitem control.
+        /// pages_result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl home_listitem;
-
-        /// <summary>
-        /// pages_home_result control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl pages_home_result;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl pages_result;
     }
 }
